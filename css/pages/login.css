@@ -1,0 +1,130 @@
+.bg-content {
+  background: url(../../img/bg_login.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+}
+
+.main-title {
+  position: absolute;
+  bottom: 7%;
+  left: 5%;
+  text-align: left;
+  font-size: 41px;
+  letter-spacing: -1px;
+  line-height: 64px;
+  color: #ffffff;
+  filter: drop-shadow(0.977px 2.837px 0px rgba(0,0,0,0.23));
+}
+
+.main-title h1 {
+  font-weight: 800;
+}
+
+.side-content {
+  height: 100%;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 15%;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+}
+
+.operator-switch {
+  margin-bottom: 7px;
+}
+
+.operator-switch .custom-control-label {
+  font-size: 13px;
+  color: #565757;
+  line-height: 30px;
+}
+
+.operator-switch .custom-control-label::before {
+  width: 46px;
+  height: 22px;
+  border-radius: 10px;
+  border-color: #007032;
+  left: -3.25rem;
+}
+
+.operator-switch .custom-control-label::after {
+  width: 16px;
+  height: 16px;
+  border-radius: 8px;
+  filter: drop-shadow(0.651px 1.891px 0px rgba(0,0,0,0.13));
+  background-color: #007032;
+  left: -3rem;
+  top: calc(.25rem + 3px);
+}
+
+.operator-switch .custom-control-input:checked~.custom-control-label::before {
+  border-color: #007032;
+  background-color: #007032;
+}
+
+.operator-switch .custom-control-input:checked~.custom-control-label::after {
+  -webkit-transform: translateX(1.3rem);
+  transform: translateX(1.3rem);
+  background-color: #ffffff;
+}
+
+.form-signin .input-field {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.form-signin .input-field .form-control {
+  height: 57px;
+  border-radius: 10px;
+  border: 2px solid #007032;
+  padding-left: 58px;
+  color: #565757;
+}
+
+.form-signin .input-field:before {
+  font-family: 'Font Awesome 5 Pro';
+  font-size: 25px;
+  color: #565757;
+  position: absolute;
+  top: 9px;
+  left: 20px;
+  z-index: 1;
+}
+.form-signin .input-login:before {
+  content: '\f007';
+}
+
+.form-signin .input-password:before {
+  content: '\f023';
+}
+
+.button-login {
+  width: 132px;
+  height: 49px;
+  border-radius: 10px;
+  background-color: #007032;
+  border-color: #007032;
+}
+
+.button-register {
+  width: 187px;
+  height: 49px;
+  border-radius: 10px;
+  background-color: #d82520;
+  border-color: #d82520;
+}
+
+.link-forgot-password {
+  font-size: 13px;
+  color: #565757;
+}
