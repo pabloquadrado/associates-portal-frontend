@@ -1,0 +1,47 @@
+.content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+}
+.form {
+  width: 400px;
+  margin: auto;
+}
+
+.form .main-title {
+  font-size: 43px;
+  letter-spacing: -1px;
+  line-height: 67px;
+  color: #007032;
+  font-weight: 800;
+}
+
+.form .description {
+  font-size: 17px;
+  color: #565757;
+}
+
+.form .form-control {
+  height: 57px;
+  border-radius: 10px;
+  border: 2px solid #007032;
+  color: #565757;
+}
+
+.form .validate-msg {
+  font-size: 14px;
+  color: #ff0000;
+  display: none;
+}
+
+.form .button-send {
+  width: 139px;
+  height: 52px;
+  border-radius: 10px;
+  background-color: #007032;
+  border-color: #007032;
+  text-transform: uppercase;
+  font-size: 17px;
+}
